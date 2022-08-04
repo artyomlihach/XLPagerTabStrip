@@ -1,788 +1,607 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "FXPageControl::FXPageControl" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_35";
-         buildPhases = (
-            "OBJ_38",
-            "OBJ_40",
-            "OBJ_42"
-         );
-         dependencies = (
-         );
-         name = "FXPageControl";
-         productName = "FXPageControl";
-         productReference = "FXPageControl::FXPageControl::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "FXPageControl::FXPageControl::Product" = {
-         isa = "PBXFileReference";
-         path = "FXPageControl.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "FXPageControl::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_44";
-         buildPhases = (
-            "OBJ_47"
-         );
-         dependencies = (
-         );
-         name = "FXPageControlPackageDescription";
-         productName = "FXPageControlPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_31";
-         projectDirPath = ".";
-         targets = (
-            "FXPageControl::FXPageControl",
-            "FXPageControl::SwiftPMPackageDescription",
-            "XLPagerTabStrip::XLPagerTabStrip",
-            "XLPagerTabStrip::SwiftPMPackageDescription"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "BarView.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "BaseButtonBarPagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "ButtonBarPagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "ButtonBarView.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "ButtonBarViewCell.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "IndicatorInfo.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "PagerTabStripBehaviour.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "PagerTabStripError.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "PagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "SegmentedPagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "SwipeDirection.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "TwitterPagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_22" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_23" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_24"
-         );
-         name = "Dependencies";
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_24" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_25",
-            "OBJ_30"
-         );
-         name = "FXPageControl";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_25" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_26",
-            "OBJ_28"
-         );
-         name = "FXPageControl";
-         path = ".build/checkouts/FXPageControl";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_26" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_27"
-         );
-         name = "Sources";
-         path = "Sources";
-         sourceTree = "<group>";
-      };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "FXPageControl.m";
-         sourceTree = "<group>";
-      };
-      "OBJ_28" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_29"
-         );
-         name = "include";
-         path = "include";
-         sourceTree = "<group>";
-      };
-      "OBJ_29" = {
-         isa = "PBXFileReference";
-         path = "FXPageControl.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/aznix/Projects/iOS/XLPagerTabStrip/.build/checkouts/FXPageControl/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_31" = {
-         isa = "PBXGroup";
-         children = (
-            "FXPageControl::FXPageControl::Product",
-            "XLPagerTabStrip::XLPagerTabStrip::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_35" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_36",
-            "OBJ_37"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_36" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            DEFINES_MODULE = "YES";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/FXPageControl/include"
-            );
-            INFOPLIST_FILE = "XLPagerTabStrip.xcodeproj/FXPageControl_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "FXPageControl";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "FXPageControl";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_37" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            DEFINES_MODULE = "YES";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/FXPageControl/include"
-            );
-            INFOPLIST_FILE = "XLPagerTabStrip.xcodeproj/FXPageControl_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "FXPageControl";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "FXPageControl";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_38" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_39"
-         );
-      };
-      "OBJ_39" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXHeadersBuildPhase";
-         files = (
-            "OBJ_41"
-         );
-      };
-      "OBJ_41" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_42" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_44" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_45",
-            "OBJ_46"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_45" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_46" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_47" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_48"
-         );
-      };
-      "OBJ_48" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_22",
-            "OBJ_23",
-            "OBJ_31"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_50" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_51",
-            "OBJ_52"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_51" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/FXPageControl/include"
-            );
-            INFOPLIST_FILE = "XLPagerTabStrip.xcodeproj/XLPagerTabStrip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "XLPagerTabStrip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "XLPagerTabStrip";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_52" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/FXPageControl/include"
-            );
-            INFOPLIST_FILE = "XLPagerTabStrip.xcodeproj/XLPagerTabStrip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "XLPagerTabStrip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "XLPagerTabStrip";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_53" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64",
-            "OBJ_65",
-            "OBJ_66"
-         );
-      };
-      "OBJ_54" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_55" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_56" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_57" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
-      };
-      "OBJ_58" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_59" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_61" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_62" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_63" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_18";
-      };
-      "OBJ_64" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_65" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
-      };
-      "OBJ_66" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_67" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_68"
-         );
-      };
-      "OBJ_68" = {
-         isa = "PBXBuildFile";
-         fileRef = "FXPageControl::FXPageControl::Product";
-      };
-      "OBJ_69" = {
-         isa = "PBXTargetDependency";
-         target = "FXPageControl::FXPageControl";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8",
-            "OBJ_9",
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_13",
-            "OBJ_14",
-            "OBJ_15",
-            "OBJ_16",
-            "OBJ_17",
-            "OBJ_18",
-            "OBJ_19",
-            "OBJ_20",
-            "OBJ_21"
-         );
-         name = "Sources";
-         path = "Sources";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_71" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_72",
-            "OBJ_73"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_72" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_73" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_74" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_75"
-         );
-      };
-      "OBJ_75" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_8" = {
-         isa = "PBXFileReference";
-         path = "ButtonCell.xib";
-         sourceTree = "<group>";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "BarPagerTabStripViewController.swift";
-         sourceTree = "<group>";
-      };
-      "XLPagerTabStrip::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_71";
-         buildPhases = (
-            "OBJ_74"
-         );
-         dependencies = (
-         );
-         name = "XLPagerTabStripPackageDescription";
-         productName = "XLPagerTabStripPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "XLPagerTabStrip::XLPagerTabStrip" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_50";
-         buildPhases = (
-            "OBJ_53",
-            "OBJ_67"
-         );
-         dependencies = (
-            "OBJ_69"
-         );
-         name = "XLPagerTabStrip";
-         productName = "XLPagerTabStrip";
-         productReference = "XLPagerTabStrip::XLPagerTabStrip::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "XLPagerTabStrip::XLPagerTabStrip::Product" = {
-         isa = "PBXFileReference";
-         path = "XLPagerTabStrip.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		OBJ_39 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* FXPageControl.m */; };
+		OBJ_41 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_48 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Package.swift */; };
+		OBJ_54 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BarPagerTabStripViewController.swift */; };
+		OBJ_55 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BarView.swift */; };
+		OBJ_56 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* BaseButtonBarPagerTabStripViewController.swift */; };
+		OBJ_57 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ButtonBarPagerTabStripViewController.swift */; };
+		OBJ_58 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ButtonBarView.swift */; };
+		OBJ_59 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ButtonBarViewCell.swift */; };
+		OBJ_60 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* IndicatorInfo.swift */; };
+		OBJ_61 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* PagerTabStripBehaviour.swift */; };
+		OBJ_62 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* PagerTabStripError.swift */; };
+		OBJ_63 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* PagerTabStripViewController.swift */; };
+		OBJ_64 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SegmentedPagerTabStripViewController.swift */; };
+		OBJ_65 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SwipeDirection.swift */; };
+		OBJ_66 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* TwitterPagerTabStripViewController.swift */; };
+		OBJ_68 /* FXPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FXPageControl::FXPageControl::Product" /* FXPageControl.framework */; };
+		OBJ_75 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC21C03289C1A9B00313073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "FXPageControl::FXPageControl";
+			remoteInfo = FXPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AC21C06289C1AF200313073 /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		"FXPageControl::FXPageControl::Product" /* FXPageControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FXPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		OBJ_11 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ButtonBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBarView.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		OBJ_15 /* IndicatorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorInfo.swift; sourceTree = "<group>"; };
+		OBJ_16 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		OBJ_17 /* PagerTabStripError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabStripError.swift; sourceTree = "<group>"; };
+		OBJ_18 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		OBJ_19 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		OBJ_20 /* SwipeDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		OBJ_21 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		OBJ_27 /* FXPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
+		OBJ_29 /* FXPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
+		OBJ_30 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/aznix/Projects/iOS/XLPagerTabStrip/.build/checkouts/FXPageControl/Package.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		"XLPagerTabStrip::XLPagerTabStrip::Product" /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_68 /* FXPageControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC21C05289C1AF200313073 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AC21C06289C1AF200313073 /* ButtonCell.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* FXPageControl */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_24 /* FXPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* FXPageControl */,
+				OBJ_30 /* Package.swift */,
+			);
+			name = FXPageControl;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* FXPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* Sources */,
+				OBJ_28 /* include */,
+			);
+			name = FXPageControl;
+			path = .build/checkouts/FXPageControl;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* FXPageControl.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* FXPageControl.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"FXPageControl::FXPageControl::Product" /* FXPageControl.framework */,
+				"XLPagerTabStrip::XLPagerTabStrip::Product" /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_22 /* Tests */,
+				OBJ_23 /* Dependencies */,
+				OBJ_31 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* BarPagerTabStripViewController.swift */,
+				OBJ_10 /* BarView.swift */,
+				OBJ_11 /* BaseButtonBarPagerTabStripViewController.swift */,
+				OBJ_12 /* ButtonBarPagerTabStripViewController.swift */,
+				OBJ_13 /* ButtonBarView.swift */,
+				OBJ_14 /* ButtonBarViewCell.swift */,
+				OBJ_15 /* IndicatorInfo.swift */,
+				OBJ_16 /* PagerTabStripBehaviour.swift */,
+				OBJ_17 /* PagerTabStripError.swift */,
+				9AC21C05289C1AF200313073 /* Resources */,
+				OBJ_18 /* PagerTabStripViewController.swift */,
+				OBJ_19 /* SegmentedPagerTabStripViewController.swift */,
+				OBJ_20 /* SwipeDirection.swift */,
+				OBJ_21 /* TwitterPagerTabStripViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		OBJ_40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* FXPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		"FXPageControl::FXPageControl" /* FXPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_35 /* Build configuration list for PBXNativeTarget "FXPageControl" */;
+			buildPhases = (
+				OBJ_38 /* Sources */,
+				OBJ_40 /* Headers */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXPageControl;
+			productName = FXPageControl;
+			productReference = "FXPageControl::FXPageControl::Product" /* FXPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"FXPageControl::SwiftPMPackageDescription" /* FXPageControlPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "FXPageControlPackageDescription" */;
+			buildPhases = (
+				OBJ_47 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXPageControlPackageDescription;
+			productName = FXPageControlPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"XLPagerTabStrip::SwiftPMPackageDescription" /* XLPagerTabStripPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_71 /* Build configuration list for PBXNativeTarget "XLPagerTabStripPackageDescription" */;
+			buildPhases = (
+				OBJ_74 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPagerTabStripPackageDescription;
+			productName = XLPagerTabStripPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"XLPagerTabStrip::XLPagerTabStrip" /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_50 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				OBJ_53 /* Sources */,
+				OBJ_67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_69 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = "XLPagerTabStrip::XLPagerTabStrip::Product" /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "XLPagerTabStrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"FXPageControl::FXPageControl" /* FXPageControl */,
+				"FXPageControl::SwiftPMPackageDescription" /* FXPageControlPackageDescription */,
+				"XLPagerTabStrip::XLPagerTabStrip" /* XLPagerTabStrip */,
+				"XLPagerTabStrip::SwiftPMPackageDescription" /* XLPagerTabStripPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_39 /* FXPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_48 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_54 /* BarPagerTabStripViewController.swift in Sources */,
+				OBJ_55 /* BarView.swift in Sources */,
+				OBJ_56 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				OBJ_57 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				OBJ_58 /* ButtonBarView.swift in Sources */,
+				OBJ_59 /* ButtonBarViewCell.swift in Sources */,
+				OBJ_60 /* IndicatorInfo.swift in Sources */,
+				OBJ_61 /* PagerTabStripBehaviour.swift in Sources */,
+				OBJ_62 /* PagerTabStripError.swift in Sources */,
+				OBJ_63 /* PagerTabStripViewController.swift in Sources */,
+				OBJ_64 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				OBJ_65 /* SwipeDirection.swift in Sources */,
+				OBJ_66 /* TwitterPagerTabStripViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_75 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "FXPageControl::FXPageControl" /* FXPageControl */;
+			targetProxy = 9AC21C03289C1A9B00313073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/FXPageControl/include",
+				);
+				INFOPLIST_FILE = XLPagerTabStrip.xcodeproj/FXPageControl_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FXPageControl;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = FXPageControl;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/FXPageControl/include",
+				);
+				INFOPLIST_FILE = XLPagerTabStrip.xcodeproj/FXPageControl_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FXPageControl;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = FXPageControl;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/FXPageControl/include",
+				);
+				INFOPLIST_FILE = XLPagerTabStrip.xcodeproj/XLPagerTabStrip_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = XLPagerTabStrip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = XLPagerTabStrip;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/FXPageControl/include",
+				);
+				INFOPLIST_FILE = XLPagerTabStrip.xcodeproj/XLPagerTabStrip_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = XLPagerTabStrip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = XLPagerTabStrip;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_35 /* Build configuration list for PBXNativeTarget "FXPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_36 /* Debug */,
+				OBJ_37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_44 /* Build configuration list for PBXNativeTarget "FXPageControlPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_50 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_51 /* Debug */,
+				OBJ_52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_71 /* Build configuration list for PBXNativeTarget "XLPagerTabStripPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_72 /* Debug */,
+				OBJ_73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }
