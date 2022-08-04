@@ -20,7 +20,9 @@ let package = Package(
         .target(
             name: "XLPagerTabStrip",
             dependencies: ["FXPageControl"],
+            resources: [.process("Resources")],
             path: "Sources"
+            
         )
     ]
 )
